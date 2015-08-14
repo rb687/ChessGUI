@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gameofchess.FXMLDocumentController">
+    <children>
+      <Button layoutX="106.0" layoutY="35.0" mnemonicParsing="false" onAction="#hostAGameButton" prefHeight="26.0" prefWidth="108.0" text="Host A Game" />
+      <Button layoutX="106.0" layoutY="74.0" mnemonicParsing="false" onAction="#JoinAGameButton" prefHeight="26.0" prefWidth="108.0" text="Join A Game" />
+      <Button layoutX="107.0" layoutY="115.0" mnemonicParsing="false" onAction="#RandomGameButton" text="Random Game" />
+      <Button layoutX="106.0" layoutY="151.0" mnemonicParsing="false" onAction="#ExitButton" prefHeight="26.0" prefWidth="108.0" text="Exit" />
+    </children>
+</AnchorPane>
